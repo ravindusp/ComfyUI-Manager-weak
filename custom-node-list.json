@@ -10,6 +10,19 @@
             ],
             "install_type": "git-clone",
             "description": "ComfyUI-Manager itself is also a custom node."
+        },        
+        {
+            "author": "NF4",
+            "title": "NF4",
+            "id": "NF4",
+            "reference": "https://github.com/comfyanonymous/ComfyUI_bitsandbytes_NF4",
+            "files": [
+                "https://github.com/comfyanonymous/ComfyUI_bitsandbytes_NF4"
+            ],
+            "pip": ["nf4"],
+            "install_type": "git-clone",
+            "description": "TNF4 low that automatically enhances facial details. And provide iterative upscaler.",
+            "preemptions":["nf4"]
         },
         {
             "author": "Dr.Lt.Data",
